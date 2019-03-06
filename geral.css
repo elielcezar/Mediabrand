@@ -1,0 +1,263 @@
+html, body {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url("fonts/Gotham-Black.eot");
+  src: url("fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Black.woff2") format("woff2"), url("fonts/Gotham-Black.woff") format("woff"), url("fonts/Gotham-Black.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("fonts/Gotham-Book.eot");
+  src: url("fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Book.woff2") format("woff2"), url("fonts/Gotham-Book.woff") format("woff"), url("fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url("fonts/Gotham-Bold.eot");
+  src: url("fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Bold.woff2") format("woff2"), url("fonts/Gotham-Bold.woff") format("woff"), url("fonts/Gotham-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url("fonts/Gotham-Medium.eot");
+  src: url("fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Medium.woff2") format("woff2"), url("fonts/Gotham-Medium.woff") format("woff"), url("fonts/Gotham-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1100px;
+  position: relative;
+}
+
+a {
+  color: #7aa93f;
+}
+
+a:hover {
+  color: #ede42d;
+  text-decoration: none;
+}
+
+#admin-menu {
+  z-index: 100;
+}
+
+p, ul, ol {
+  margin: 20px 0;
+}
+
+button:hover,
+button:active,
+button:focus,
+a:hover,
+a:active
+a:link,
+a:visited,
+a:focus {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  outline: 0 !important;
+}
+
+p strong {
+  text-transform: uppercase;
+}
+
+img.img-responsive {
+  margin: auto !important;
+}
+
+/*--- TOPO DESTAQUE ----------------------------------------------------------------*/
+.destaque {
+  float: left;
+  width: 100%;
+  background: #111820 url(img/bg-topo.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.destaque .logo {
+  margin-bottom: 90px !important;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .destaque .logo {
+    margin-bottom: 45px !important;
+  }
+}
+
+.destaque h2 {
+  font-size: 46px;
+  color: #fff;
+  font-family: 'Gotham Black';
+  margin-bottom: 20px;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+@media (max-width: 767px) {
+  .destaque h2 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+
+.destaque p {
+  font-size: 18px;
+  color: #aaabad;
+  display: inline-block;
+  max-width: 75%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .destaque p {
+    max-width: 100%;
+  }
+}
+
+/*--- SERVICOS ----------------------------------------------------------------*/
+.servicos {
+  float: left;
+  width: 100%;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.servicos h3 {
+  font-family: 'Gotham Medium';
+  color: #3c3c3b;
+  margin: 75px 0 20px 0;
+  padding: 25px 0;
+  background: transparent url(img/bg-h3.png);
+}
+
+.servicos h3 strong {
+  font-family: 'Gotham Black';
+}
+
+.servicos h3 a {
+  color: #3c3c3b;
+  text-decoration: none;
+}
+
+.servicos .col-sm-4 {
+  padding: 15px !important;
+}
+
+.servicos .col-sm-4 img {
+  max-width: 100%;
+}
+
+/*--- RODAPE ------------------------------------------------------------------------------*/
+footer {
+  float: left;
+  width: 100%;
+  color: #fff;
+  background: #272f39;
+  position: relative;
+}
+
+footer .contato .container {
+  padding-top: 50px;
+  background: transparent url(img/arrow-footer.png) top left no-repeat;
+}
+
+footer h2 {
+  margin: 9px 0;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  footer h2 {
+    margin-top: 40px;
+  }
+}
+
+footer .info-end {
+  margin-bottom: 50px;
+}
+
+footer h3 {
+  margin: 20px 0 0 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+footer h3:nth-child(2) {
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px 0 !important;
+  font-size: 14px;
+  padding: 10px 0 10px 50px;
+}
+
+footer p strong {
+  font-weight: normal;
+  color: #00B4FF;
+  text-transform: none;
+}
+
+footer p.end {
+  background: transparent url(img/ico-local.png) left center no-repeat;
+}
+
+footer p.tel {
+  background: transparent url(img/ico-tel.png) left center no-repeat;
+  margin-bottom: 40px;
+}
+
+footer .contato {
+  background: #272f39;
+}
+
+@media (max-width: 1199px) {
+  footer .contato {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+footer .contato .links {
+  display: none !important;
+}
+
+footer .contato .webform-confirmation {
+  padding-top: 100px;
+}
+
+footer .assinatura {
+  background: #152233;
+  text-align: center;
+}
+
+footer .assinatura .copyright {
+  float: left;
+  margin: 10px 0;
+}
+
+footer .assinatura img.logo-rodape {
+  margin: 10px auto;
+  max-width: 100%;
+}
